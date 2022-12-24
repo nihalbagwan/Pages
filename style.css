@@ -1,0 +1,32 @@
+.outer
+{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+}
+.container
+{
+    display: flex;
+   flex-flow: column nowrap;
+   background-color: blueviolet;
+   padding: 100px;
+   row-gap: 20px;
+   align-items: center;
+   width: fit-content;
+   margin-top: 20vh;
+   border-radius: 10px;
+}
+.wrap
+{
+   font-weight: 700; 
+   width:fit-content;
+   padding: 7px;
+}
+.label
+{
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:  1px 1px 2px rgb(191, 89, 255),  0 0 0.3em rgb(0, 0, 0);;
+}
